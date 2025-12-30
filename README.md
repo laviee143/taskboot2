@@ -63,31 +63,6 @@ Response:
 {
   "message": "API is running successfully"
 
-  🔑 Auth Routes
-Method	Endpoint            Description
-POST	/api/auth/register    Register a new user
-POST	/api/auth/login       Login user & return JWT token
-
-taskboot/
-│
-├── controllers/
-│   ├── authController.js
-│   └── userController.js
-│
-├── routes/
-│   ├── authRoutes.js
-│   └── userRoutes.js
-│
-├── middleware/
-│   └── errorMiddleware.js
-│
-├── config/
-│   └── db.js
-│
-├── .env
-├── package.json
-└── server.js
-
 ⚡ Usage
 
 1, Start MongoDB locally or connect to Atlas.
