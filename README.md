@@ -1,20 +1,19 @@
 🌟 Backend API
-Backend API is a Node.js and Express-based backend project that allows user registration, login, and protected routes using JWT authentication.
-It is connected to MongoDB for storing user data.
 
-This project is designed as an individual learning task to strengthen API development skills.
-
+      Backend API is a Node.js and Express-based backend project that allows user registration, login, and protected routes using JWT authentication.
+      It is connected to MongoDB for storing user data.
+      
 ✨ Features
 
-User registration (/api/auth/register)
+      User registration (/api/auth/register)
 
-User login (/api/auth/login) with JWT authentication
+      User login (/api/auth/login) with JWT authentication
 
-Protected routes for user profile (/api/users/profile)
+      Protected routes for user profile (/api/users/profile)
 
-MongoDB integration with Mongoose
+      MongoDB integration with Mongoose
 
-Error handling middleware
+      Error handling middleware
 
 🛠 Technologies Used
 
@@ -91,11 +90,11 @@ taskboot/
 
 ⚡ Usage
 
-Start MongoDB locally or connect to Atlas.
+1, Start MongoDB locally or connect to Atlas.
 
-Start server using node server.js.
+2, Start server using node server.js.
 
-Test endpoints using Postman.
+3, Test endpoints using Postman.
 
-Use JWT token for protected routes.
+4, Use JWT token for protected routes.
   
